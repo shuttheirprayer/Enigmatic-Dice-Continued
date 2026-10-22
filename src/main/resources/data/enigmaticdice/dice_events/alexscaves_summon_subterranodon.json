@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "summon",
+  "rarity": 5,
+  "category": "positive",
+  "message": "enigmaticdice.event.subterranodon",
+  "spawns": [
+    {
+      "entity": "alexscaves:subterranodon",
+      "placement": {
+        "type": "front",
+        "distance": 3,
+        "height": 1,
+        "require_space": true
+      },
+      "tame": true,
+      "nbt": "{Command:2}",
+      "effects": [
+        {
+          "effect": "minecraft:regeneration",
+          "duration": -1
+        }
+      ]
+    }
+  ]
+}

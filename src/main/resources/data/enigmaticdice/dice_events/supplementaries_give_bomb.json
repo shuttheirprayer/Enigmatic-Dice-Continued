@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 5,
+  "category": "positive",
+  "message": "enigmaticdice.gift.blue",
+  "item": "supplementaries:bomb",
+  "count": 32
+}

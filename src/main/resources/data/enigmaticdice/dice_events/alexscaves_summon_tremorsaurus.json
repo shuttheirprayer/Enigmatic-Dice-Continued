@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "summon",
+  "rarity": 40,
+  "category": "positive",
+  "message": "enigmaticdice.event.tremorsaurus",
+  "spawns": [
+    {
+      "entity": "alexscaves:tremorsaurus",
+      "placement": {
+        "type": "front",
+        "distance": 5,
+        "height": 1,
+        "require_space": true
+      },
+      "tame": true,
+      "persistent": true,
+      "full_health": true,
+      "sound": "alexscaves:tremorsaurus_roar"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "mowziesmobs"}],
+  "type": "summon",
+  "rarity": 10,
+  "category": "positive",
+  "message": "enigmaticdice.event.grottol",
+  "spawns": [
+    {
+      "entity": "mowziesmobs:grottol",
+      "placement": {"type": "front", "distance": 4, "height": 1, "require_space": true}
+    }
+  ]
+}

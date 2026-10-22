@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "primitive_mobs"
+    }
+  ],
+  "type": "summon",
+  "rarity": 15,
+  "category": "negative",
+  "message": "enigmaticdice.event.yeti",
+  "spawns": [
+    {
+      "entity": "primitive_mobs:yeti",
+      "placement": {
+        "type": "front",
+        "distance": 7,
+        "height": 1,
+        "require_space": true
+      },
+      "target_roller": true
+    }
+  ]
+}

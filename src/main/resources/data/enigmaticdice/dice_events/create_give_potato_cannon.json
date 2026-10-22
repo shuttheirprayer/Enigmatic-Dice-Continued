@@ -1,0 +1,8 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "create"}],
+  "type": "give_item",
+  "rarity": 15,
+  "category": "positive",
+  "message": "enigmaticdice.event.potato_cannon",
+  "item": "create:potato_cannon"
+}

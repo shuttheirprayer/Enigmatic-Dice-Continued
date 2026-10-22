@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 20,
+  "category": "positive",
+  "message": "enigmaticdice.event.robit",
+  "item": "mekanism:robit",
+  "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"100000\"}]}}"
+}

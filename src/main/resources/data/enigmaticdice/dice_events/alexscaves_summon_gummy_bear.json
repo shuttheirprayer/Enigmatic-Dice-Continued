@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "summon",
+  "rarity": 6,
+  "category": "neutral",
+  "message": "enigmaticdice.event.gummy_bear",
+  "spawns": [
+    {
+      "entity": "alexscaves:gummy_bear",
+      "placement": {
+        "type": "front",
+        "distance": 3,
+        "height": 1,
+        "require_space": true
+      },
+      "persistent": true
+    }
+  ]
+}

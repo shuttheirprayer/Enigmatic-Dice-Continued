@@ -1,0 +1,16 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "mowziesmobs"}],
+  "type": "summon",
+  "rarity": 10,
+  "category": "negative",
+  "message": "enigmaticdice.event.umvuthana",
+  "spawns": [
+    {
+      "entity": "mowziesmobs:umvuthana",
+      "count": 3,
+      "placement": {"type": "front", "distance": 6, "height": 1, "require_space": true},
+      "interval": 10,
+      "target_roller": true
+    }
+  ]
+}

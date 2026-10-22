@@ -1,0 +1,8 @@
+{
+  "type": "give_item",
+  "rarity": 1000,
+  "category": "positive",
+  "message": "enigmaticdice.gift.aqua",
+  "item": "minecraft:light",
+  "count": 16
+}

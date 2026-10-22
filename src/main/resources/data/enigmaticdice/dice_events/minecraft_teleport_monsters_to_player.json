@@ -1,0 +1,6 @@
+{
+  "type": "teleport_monsters",
+  "rarity": 20,
+  "category": "negative",
+  "message": "enigmaticdice.event.teleport_monsters_to_player"
+}

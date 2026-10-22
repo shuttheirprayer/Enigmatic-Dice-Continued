@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 20,
+  "category": "neutral",
+  "message": "enigmaticdice.gift.dark_purple",
+  "item": "enigmaticlegacy:golden_ring",
+  "nbt": "{display:{Name:'{\"translate\":\"enigmaticdice.renameditem.the_one_ring\"}'}}"
+}

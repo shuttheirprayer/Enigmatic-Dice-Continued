@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "born_in_chaos_v1"
+    }
+  ],
+  "type": "summon",
+  "rarity": 10,
+  "category": "negative",
+  "message": "enigmaticdice.event.zombie_clown",
+  "spawns": [
+    {
+      "entity": "born_in_chaos_v1:zombie_clown",
+      "placement": {
+        "type": "front",
+        "distance": 6,
+        "height": 1,
+        "require_space": true
+      },
+      "target_roller": true
+    }
+  ]
+}

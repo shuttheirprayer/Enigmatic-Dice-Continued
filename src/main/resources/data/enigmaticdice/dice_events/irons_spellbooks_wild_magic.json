@@ -1,0 +1,20 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "command",
+  "rarity": 8,
+  "category": "positive",
+  "message": "enigmaticdice.event.wild_magic",
+  "variants": [
+    "cast @s irons_spellbooks:heal 6",
+    "cast @s irons_spellbooks:oakskin 5",
+    "cast @s irons_spellbooks:charge 3",
+    "cast @s irons_spellbooks:evasion 4",
+    "cast @s irons_spellbooks:angel_wing 3",
+    "cast @s irons_spellbooks:spider_aspect 4"
+  ]
+}

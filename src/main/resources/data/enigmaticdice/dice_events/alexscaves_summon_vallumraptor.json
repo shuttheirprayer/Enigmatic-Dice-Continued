@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "summon",
+  "rarity": 5,
+  "category": "positive",
+  "message": "enigmaticdice.event.vallumraptor",
+  "spawns": [
+    {
+      "entity": "alexscaves:vallumraptor",
+      "count": 3,
+      "placement": {
+        "type": "ring",
+        "distance": 2,
+        "height": 5
+      },
+      "interval": 10,
+      "tame": true,
+      "nbt": "{Command:2}",
+      "effects": [
+        {
+          "effect": "minecraft:regeneration",
+          "duration": -1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexsmobs"
+    }
+  ],
+  "type": "summon",
+  "rarity": 8,
+  "category": "positive",
+  "message": "enigmaticdice.event.crow",
+  "spawns": [
+    {
+      "entity": "alexsmobs:crow",
+      "placement": {
+        "type": "front",
+        "distance": 2,
+        "height": 1.5,
+        "require_space": true
+      },
+      "tame": true,
+      "persistent": true
+    }
+  ]
+}

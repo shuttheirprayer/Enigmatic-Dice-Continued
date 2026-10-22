@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "species"
+    }
+  ],
+  "type": "summon",
+  "rarity": 8,
+  "category": "neutral",
+  "message": "enigmaticdice.event.goober",
+  "spawns": [
+    {
+      "entity": "species:goober",
+      "placement": {
+        "type": "front",
+        "distance": 4,
+        "height": 1,
+        "require_space": true
+      }
+    }
+  ]
+}

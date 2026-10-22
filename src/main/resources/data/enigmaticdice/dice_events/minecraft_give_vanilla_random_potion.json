@@ -1,0 +1,8 @@
+{
+  "type": "random_potion",
+  "rarity": 5,
+  "category": "positive",
+  "message": "enigmaticdice.event.vanilla_random_potion",
+  "vanilla_only": true,
+  "name": "item.enigmaticdice.vanilla_random_splash_potion"
+}

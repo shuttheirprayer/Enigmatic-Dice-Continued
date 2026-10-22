@@ -1,0 +1,7 @@
+{
+  "type": "explosion",
+  "rarity": 2,
+  "category": "negative",
+  "message": "enigmaticdice.event.explosion",
+  "power": 4.0
+}

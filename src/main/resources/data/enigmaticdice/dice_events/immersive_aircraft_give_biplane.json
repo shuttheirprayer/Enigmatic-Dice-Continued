@@ -1,0 +1,8 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "immersive_aircraft"}],
+  "type": "give_item",
+  "rarity": 25,
+  "category": "positive",
+  "message": "enigmaticdice.event.biplane",
+  "item": "immersive_aircraft:biplane"
+}

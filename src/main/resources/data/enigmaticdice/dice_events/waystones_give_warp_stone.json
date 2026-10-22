@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "waystones"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 15,
+  "category": "positive",
+  "message": "enigmaticdice.event.warp_stone",
+  "item": "waystones:warp_stone"
+}

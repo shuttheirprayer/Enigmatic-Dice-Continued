@@ -1,0 +1,32 @@
+{
+  "type": "summon",
+  "rarity": 5,
+  "category": "positive",
+  "message": "enigmaticdice.event.horse",
+  "message_variants": 2,
+  "spawns": [
+    {
+      "entity": "minecraft:horse",
+      "placement": {
+        "type": "front",
+        "distance": 3,
+        "height": 1,
+        "require_space": true
+      },
+      "tame": true,
+      "nbt": "{SaddleItem:{id:\"minecraft:saddle\",Count:1b}}",
+      "full_health": true,
+      "attributes": {
+        "minecraft:generic.movement_speed": 0.3375,
+        "minecraft:horse.jump_strength": 1.0,
+        "minecraft:generic.max_health": 30.0
+      },
+      "effects": [
+        {
+          "effect": "minecraft:regeneration",
+          "duration": -1
+        }
+      ]
+    }
+  ]
+}

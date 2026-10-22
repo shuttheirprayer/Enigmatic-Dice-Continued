@@ -1,0 +1,9 @@
+{
+  "type": "apply_effect",
+  "rarity": 20,
+  "category": "neutral",
+  "message": "enigmaticdice.event.day_of_strength",
+  "effect": "enigmaticdice:day_of_strength",
+  "duration": 24000,
+  "curable": false
+}

@@ -1,0 +1,34 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "l2hostility"
+    }
+  ],
+  "type": "summon",
+  "rarity": 15,
+  "category": "negative",
+  "message": "enigmaticdice.event.champion",
+  "spawns": [
+    {
+      "entity": "minecraft:vindicator",
+      "placement": {
+        "type": "front",
+        "distance": 7,
+        "height": 1,
+        "require_space": true
+      },
+      "target_roller": true,
+      "names": [
+        "Champion"
+      ],
+      "nbt": "{HandItems:[{id:\"minecraft:iron_axe\",Count:1b},{}],HandDropChances:[0.0f,0.0f]}"
+    }
+  ],
+  "on_spawn": [
+    "hostility mobs @s level add 20",
+    "hostility mobs @s trait set l2hostility:tank 2",
+    "hostility mobs @s trait set l2hostility:regenerate 1",
+    "hostility mobs @s trait set l2hostility:protection 1"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 20,
+  "category": "positive",
+  "message": "enigmaticdice.gift.dark_purple",
+  "item": "alexscaves:desolate_dagger",
+  "nbt": "{Enchantments:[{id:\"alexscaves:double_stab\",lvl:4}]}"
+}

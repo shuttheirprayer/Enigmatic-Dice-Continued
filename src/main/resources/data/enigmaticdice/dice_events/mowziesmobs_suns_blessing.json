@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mowziesmobs"
+    }
+  ],
+  "type": "apply_effect",
+  "rarity": 15,
+  "category": "positive",
+  "message": "enigmaticdice.event.suns_blessing",
+  "effect": "mowziesmobs:suns_blessing",
+  "duration": 6000
+}

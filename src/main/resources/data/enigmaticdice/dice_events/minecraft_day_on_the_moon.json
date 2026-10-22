@@ -1,0 +1,9 @@
+{
+  "type": "apply_effect",
+  "rarity": 20,
+  "category": "neutral",
+  "message": "enigmaticdice.event.day_on_the_moon",
+  "effect": "enigmaticdice:moon_day",
+  "duration": 24000,
+  "curable": false
+}

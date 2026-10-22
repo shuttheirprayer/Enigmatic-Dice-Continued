@@ -1,0 +1,16 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "alexsmobs"}],
+  "type": "summon",
+  "rarity": 8,
+  "category": "negative",
+  "message": "enigmaticdice.event.mosquitoes",
+  "spawns": [
+    {
+      "entity": "alexsmobs:crimson_mosquito",
+      "count": 4,
+      "placement": {"type": "front", "distance": 5, "height": 2, "require_space": true},
+      "interval": 10,
+      "target_roller": true
+    }
+  ]
+}

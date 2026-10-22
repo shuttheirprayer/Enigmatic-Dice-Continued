@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mowziesmobs"
+    }
+  ],
+  "type": "apply_effect",
+  "rarity": 10,
+  "category": "negative",
+  "message": "enigmaticdice.event.frozen",
+  "effect": "mowziesmobs:frozen",
+  "duration": 100
+}

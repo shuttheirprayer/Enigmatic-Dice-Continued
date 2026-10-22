@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "terramity"
+    }
+  ],
+  "type": "summon",
+  "rarity": 20,
+  "category": "negative",
+  "message": "enigmaticdice.event.black_hole_bomb",
+  "claim_radius": 48,
+  "spawns": [
+    {
+      "entity": "terramity:black_hole_bomb_entity",
+      "placement": {
+        "type": "front",
+        "distance": 0,
+        "height": 0,
+        "require_space": false
+      },
+      "sound": "minecraft:entity.tnt.primed"
+    }
+  ]
+}

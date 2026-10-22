@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "confluence"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 15,
+  "category": "positive",
+  "message": "enigmaticdice.event.cloud_in_a_bottle",
+  "item": "confluence:cloud_in_a_bottle"
+}

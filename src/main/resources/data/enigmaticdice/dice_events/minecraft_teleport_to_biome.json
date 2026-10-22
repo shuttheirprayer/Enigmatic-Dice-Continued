@@ -1,0 +1,26 @@
+{
+  "type": "teleport_to_biome",
+  "rarity": 20,
+  "category": "neutral",
+  "message": "enigmaticdice.event.teleport_to_biome",
+  "message_variants": 6,
+  "biomes": [
+    "minecraft:mushroom_fields",
+    "minecraft:cherry_grove",
+    "terralith:amethyst_canyon",
+    "terralith:amethyst_rainforest",
+    "terralith:desert_spires",
+    "terralith:glacial_chasm",
+    "terralith:scarlet_mountains",
+    "terralith:mirage_isles",
+    "terralith:warped_mesa",
+    "terralith:jungle_mountains",
+    "biomesoplenty:auroral_garden",
+    "biomesoplenty:bayou",
+    "biomesoplenty:hot_springs",
+    "biomesoplenty:mystic_grove",
+    "biomesoplenty:rainforest",
+    "biomesoplenty:rocky_rainforest",
+    "biomesoplenty:tropics"
+  ]
+}

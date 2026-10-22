@@ -1,0 +1,7 @@
+{
+  "type": "give_item",
+  "rarity": 100,
+  "category": "positive",
+  "message": "enigmaticdice.gift.gold",
+  "item": "enigmaticdice:soul_eater"
+}

@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "opposing_force"
+    }
+  ],
+  "type": "summon",
+  "rarity": 10,
+  "category": "negative",
+  "message": "enigmaticdice.event.volts",
+  "spawns": [
+    {
+      "entity": "opposing_force:volt",
+      "count": 2,
+      "placement": {
+        "type": "front",
+        "distance": 6,
+        "height": 2,
+        "require_space": true
+      },
+      "interval": 10,
+      "target_roller": true,
+      "sound": "minecraft:entity.lightning_bolt.thunder"
+    }
+  ]
+}

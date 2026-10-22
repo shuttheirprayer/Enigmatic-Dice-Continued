@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 8,
+  "category": "positive",
+  "message": "enigmaticdice.event.slingshot",
+  "item": "supplementaries:slingshot"
+}

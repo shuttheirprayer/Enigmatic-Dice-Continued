@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "l2hostility"
+    }
+  ],
+  "type": "summon",
+  "rarity": 12,
+  "category": "negative",
+  "message": "enigmaticdice.event.shulker_pillagers",
+  "spawns": [
+    {
+      "entity": "minecraft:pillager",
+      "count": 2,
+      "placement": {
+        "type": "front",
+        "distance": 7,
+        "height": 1,
+        "require_space": true
+      },
+      "interval": 10,
+      "target_roller": true,
+      "nbt": "{HandItems:[{id:\"minecraft:crossbow\",Count:1b},{}],HandDropChances:[0.0f,0.0f]}"
+    }
+  ],
+  "on_spawn": [
+    "hostility mobs @s trait set l2hostility:shulker 1"
+  ]
+}

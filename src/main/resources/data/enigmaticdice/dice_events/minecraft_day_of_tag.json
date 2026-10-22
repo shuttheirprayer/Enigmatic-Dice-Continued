@@ -1,0 +1,9 @@
+{
+  "type": "apply_effect",
+  "rarity": 20,
+  "category": "neutral",
+  "message": "enigmaticdice.event.day_of_tag",
+  "effect": "enigmaticdice:day_of_tag",
+  "duration": 24000,
+  "curable": false
+}

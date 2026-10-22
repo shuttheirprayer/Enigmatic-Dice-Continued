@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "primitive_mobs"
+    }
+  ],
+  "type": "summon",
+  "rarity": 8,
+  "category": "negative",
+  "message": "enigmaticdice.event.filch_lizards",
+  "spawns": [
+    {
+      "entity": "primitive_mobs:filch_lizard",
+      "count": 2,
+      "placement": {
+        "type": "front",
+        "distance": 3,
+        "height": 0.5,
+        "require_space": true
+      },
+      "interval": 5
+    }
+  ]
+}

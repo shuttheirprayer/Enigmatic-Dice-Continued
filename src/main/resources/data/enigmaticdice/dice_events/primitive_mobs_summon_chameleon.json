@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "primitive_mobs"
+    }
+  ],
+  "type": "summon",
+  "rarity": 5,
+  "category": "neutral",
+  "message": "enigmaticdice.event.chameleon",
+  "spawns": [
+    {
+      "entity": "primitive_mobs:chameleon",
+      "placement": {
+        "type": "front",
+        "distance": 2,
+        "height": 1,
+        "require_space": true
+      }
+    }
+  ]
+}

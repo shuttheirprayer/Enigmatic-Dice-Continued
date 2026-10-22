@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "opposing_force"
+    }
+  ],
+  "type": "summon",
+  "rarity": 12,
+  "category": "negative",
+  "message": "enigmaticdice.event.terror",
+  "spawns": [
+    {
+      "entity": "opposing_force:terror",
+      "placement": {
+        "type": "front",
+        "distance": 7,
+        "height": 1,
+        "require_space": true
+      },
+      "target_roller": true
+    }
+  ]
+}

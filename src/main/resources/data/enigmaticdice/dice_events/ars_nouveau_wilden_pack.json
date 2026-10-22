@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "type": "summon",
+  "rarity": 12,
+  "category": "negative",
+  "message": "enigmaticdice.event.wilden_pack",
+  "spawns": [
+    {
+      "entity": "ars_nouveau:wilden_hunter",
+      "count": 2,
+      "placement": {
+        "type": "front",
+        "distance": 6,
+        "height": 1,
+        "require_space": true
+      },
+      "interval": 10,
+      "target_roller": true
+    },
+    {
+      "entity": "ars_nouveau:wilden_stalker",
+      "count": 2,
+      "placement": {
+        "type": "front",
+        "distance": 5,
+        "height": 2,
+        "require_space": true
+      },
+      "delay": 15,
+      "interval": 10,
+      "target_roller": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "species"}],
+  "type": "summon",
+  "rarity": 8,
+  "category": "negative",
+  "message": "enigmaticdice.event.bewereagers",
+  "spawns": [
+    {
+      "entity": "species:bewereager",
+      "count": 2,
+      "placement": {"type": "front", "distance": 6, "height": 1, "require_space": true},
+      "interval": 10,
+      "target_roller": true,
+      "sound": "minecraft:entity.wolf.howl"
+    }
+  ]
+}

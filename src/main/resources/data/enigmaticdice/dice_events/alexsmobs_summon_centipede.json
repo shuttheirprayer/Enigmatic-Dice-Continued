@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexsmobs"
+    }
+  ],
+  "type": "summon",
+  "rarity": 5,
+  "category": "negative",
+  "message": "enigmaticdice.event.centipede",
+  "message_variants": 9,
+  "spawns": [
+    {
+      "entity": "alexsmobs:centipede_head",
+      "placement": {
+        "type": "front",
+        "distance": 6,
+        "height": 1,
+        "require_space": true
+      },
+      "nbt": "{SegCount:20}",
+      "attributes": {
+        "minecraft:generic.max_health": 100.0
+      }
+    }
+  ]
+}

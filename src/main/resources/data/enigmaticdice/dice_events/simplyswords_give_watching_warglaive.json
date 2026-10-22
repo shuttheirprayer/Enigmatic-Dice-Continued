@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "simplyswords"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 1800,
+  "category": "positive",
+  "message": "enigmaticdice.gift.gold",
+  "item": "simplyswords:watching_warglaive"
+}

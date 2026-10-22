@@ -1,0 +1,7 @@
+{
+  "type": "give_item",
+  "rarity": 20,
+  "category": "positive",
+  "message": "enigmaticdice.gift.dark_purple",
+  "item": "enigmaticdice:moon_shard"
+}

@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "crittersandcompanions"
+    }
+  ],
+  "type": "summon",
+  "rarity": 5,
+  "category": "neutral",
+  "message": "enigmaticdice.event.shima_enagas",
+  "spawns": [
+    {
+      "entity": "crittersandcompanions:shima_enaga",
+      "count": 3,
+      "placement": {
+        "type": "front",
+        "distance": 2,
+        "height": 1.5,
+        "require_space": true
+      },
+      "interval": 4
+    }
+  ]
+}

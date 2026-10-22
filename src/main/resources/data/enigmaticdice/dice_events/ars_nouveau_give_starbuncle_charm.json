@@ -1,0 +1,8 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "ars_nouveau"}],
+  "type": "give_item",
+  "rarity": 10,
+  "category": "positive",
+  "message": "enigmaticdice.event.starbuncle",
+  "item": "ars_nouveau:starbuncle_charm"
+}

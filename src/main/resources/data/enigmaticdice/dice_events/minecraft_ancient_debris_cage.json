@@ -1,0 +1,7 @@
+{
+  "type": "block_cage",
+  "rarity": 100,
+  "category": "positive",
+  "message": "enigmaticdice.event.safe_message",
+  "block": "minecraft:ancient_debris"
+}

@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "summon",
+  "rarity": 100,
+  "category": "negative",
+  "claim_radius": 128,
+  "title": {
+    "text": "RUN",
+    "color": "dark_red"
+  },
+  "spawns": [
+    {
+      "entity": "alexscaves:nuclear_bomb",
+      "placement": {
+        "type": "front",
+        "distance": 2.5,
+        "height": 2,
+        "require_space": false
+      },
+      "delay": 20,
+      "sound": "minecraft:entity.tnt.primed"
+    }
+  ]
+}

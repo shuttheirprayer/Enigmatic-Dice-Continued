@@ -1,0 +1,60 @@
+{
+  "unequal_exchange_hit": {
+    "subtitles": "sounds.enigmaticdice.unequal_exchange_hit",
+    "sounds" : [
+      "enigmaticdice:unequal_exchange_hit"
+    ]
+  },
+  "soul_eater_charged_hit": {
+    "subtitles": "sounds.enigmaticdice.soul_eater_charged_hit",
+    "sounds" : [
+      "enigmaticdice:soul_eater_charged_hit"
+    ]
+  },
+  "permafrost_frozen": {
+    "subtitles": "sounds.enigmaticdice.permafrost_frozen",
+    "sounds" : [
+      "enigmaticdice:permafrost_frozen"
+    ]
+  },
+  "permafrost_unfrozen": {
+    "subtitles": "sounds.enigmaticdice.permafrost_unfrozen",
+    "sounds" : [
+      "enigmaticdice:permafrost_unfrozen"
+    ]
+  },
+  "crucible_of_rile_preattack": {
+    "subtitles": "sounds.enigmaticdice.crucible_of_rile_preattack",
+    "sounds" : [
+      "enigmaticdice:crucible_of_rile_preattack_1",
+      "enigmaticdice:crucible_of_rile_preattack_2",
+      "enigmaticdice:crucible_of_rile_preattack_3"
+    ]
+  },
+  "crucible_of_rile_attack": {
+    "subtitles": "sounds.enigmaticdice.crucible_of_rile_attack",
+    "sounds" : [
+      "enigmaticdice:crucible_of_rile_attack_1",
+      "enigmaticdice:crucible_of_rile_attack_2",
+      "enigmaticdice:crucible_of_rile_attack_3"
+    ]
+  },
+  "crucible_of_rile_use": {
+    "subtitles": "sounds.enigmaticdice.crucible_of_rile_use",
+    "sounds" : [
+      "enigmaticdice:crucible_of_rile_use"
+    ]
+  },
+  "crucible_of_rile_helix": {
+    "subtitles": "sounds.enigmaticdice.crucible_of_rile_helix",
+    "sounds" : [
+      "enigmaticdice:crucible_of_rile_helix"
+    ]
+  },
+  "crucible_of_rile_unique_kill": {
+    "subtitles": "sounds.enigmaticdice.crucible_of_rile_unique_kill",
+    "sounds" : [
+      "enigmaticdice:crucible_of_rile_unique_kill"
+    ]
+  }
+}

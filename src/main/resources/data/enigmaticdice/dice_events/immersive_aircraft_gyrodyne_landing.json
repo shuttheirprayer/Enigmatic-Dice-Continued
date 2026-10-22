@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersive_aircraft"
+    }
+  ],
+  "type": "summon",
+  "rarity": 20,
+  "category": "positive",
+  "message": "enigmaticdice.event.gyrodyne",
+  "spawns": [
+    {
+      "entity": "immersive_aircraft:gyrodyne",
+      "placement": {
+        "type": "front",
+        "distance": 3,
+        "height": 1,
+        "require_space": true
+      }
+    }
+  ]
+}

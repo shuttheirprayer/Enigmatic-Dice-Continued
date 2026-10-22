@@ -1,0 +1,8 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "dummmmmmy"}],
+  "type": "give_item",
+  "rarity": 5,
+  "category": "neutral",
+  "message": "enigmaticdice.event.target_dummy",
+  "item": "dummmmmmy:target_dummy"
+}

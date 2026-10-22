@@ -1,0 +1,8 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "easy_villagers"}],
+  "type": "give_item",
+  "rarity": 10,
+  "category": "positive",
+  "message": "enigmaticdice.event.pocket_villager",
+  "item": "easy_villagers:villager"
+}

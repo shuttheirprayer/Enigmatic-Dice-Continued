@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "opposing_force"
+    }
+  ],
+  "type": "summon",
+  "rarity": 15,
+  "category": "negative",
+  "message": "enigmaticdice.event.dicer",
+  "spawns": [
+    {
+      "entity": "opposing_force:dicer",
+      "placement": {
+        "type": "front",
+        "distance": 7,
+        "height": 1,
+        "require_space": true
+      },
+      "target_roller": true,
+      "names": [
+        "The Dicer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "species"
+    }
+  ],
+  "type": "summon",
+  "rarity": 12,
+  "category": "positive",
+  "message": "enigmaticdice.event.limpet",
+  "spawns": [
+    {
+      "entity": "species:limpet",
+      "placement": {
+        "type": "front",
+        "distance": 3,
+        "height": 1,
+        "require_space": true
+      },
+      "persistent": true,
+      "nbt_variants": [
+        "{HasShell:1b,Ore:\"species:diamond\",MaxCount:6,OreItemStack:{id:\"minecraft:diamond\",Count:1b},OreBlockState:{Name:\"minecraft:diamond_ore\"}}",
+        "{HasShell:1b,Ore:\"species:amethyst\",MaxCount:8,OreItemStack:{id:\"minecraft:amethyst_shard\",Count:1b},OreBlockState:{Name:\"minecraft:amethyst_block\"}}",
+        "{HasShell:1b,Ore:\"species:emerald\",MaxCount:8,OreItemStack:{id:\"minecraft:emerald\",Count:1b},OreBlockState:{Name:\"minecraft:emerald_ore\"}}",
+        "{HasShell:1b,Ore:\"species:lapis\",MaxCount:16,OreItemStack:{id:\"minecraft:lapis_lazuli\",Count:1b},OreBlockState:{Name:\"minecraft:lapis_ore\"}}"
+      ]
+    }
+  ]
+}

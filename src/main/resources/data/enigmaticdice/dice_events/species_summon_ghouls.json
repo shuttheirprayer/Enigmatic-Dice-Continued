@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "species"
+    }
+  ],
+  "type": "summon",
+  "rarity": 10,
+  "category": "negative",
+  "message": "enigmaticdice.event.ghouls",
+  "spawns": [
+    {
+      "entity": "species:ghoul",
+      "count": 2,
+      "placement": {
+        "type": "front",
+        "distance": 6,
+        "height": 1,
+        "require_space": true
+      },
+      "interval": 10,
+      "target_roller": true
+    }
+  ]
+}

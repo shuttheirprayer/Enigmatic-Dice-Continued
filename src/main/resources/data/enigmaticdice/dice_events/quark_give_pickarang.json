@@ -1,0 +1,8 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "quark"}],
+  "type": "give_item",
+  "rarity": 10,
+  "category": "positive",
+  "message": "enigmaticdice.event.pickarang",
+  "item": "quark:pickarang"
+}

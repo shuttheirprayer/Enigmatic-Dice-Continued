@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ],
+  "type": "command",
+  "rarity": 8,
+  "category": "positive",
+  "message": "enigmaticdice.event.mystery_present",
+  "variants": [
+    "give @s supplementaries:present_red{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:diamond\",Count:3b}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_blue{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:golden_apple\",Count:2b}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_green{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:emerald\",Count:12b}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_purple{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:ender_pearl\",Count:8b}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_yellow{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:experience_bottle\",Count:16b}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_orange{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:name_tag\",Count:1b}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_pink{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:cake\",Count:1b}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_cyan{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:firework_rocket\",Count:16b}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_black{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:netherite_scrap\",Count:1b}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_white{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:music_disc_pigstep\",Count:1b}],Sender:\"Enigmatic Die\"}}"
+  ]
+}

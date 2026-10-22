@@ -1,0 +1,9 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "supplementaries"}],
+  "type": "give_item",
+  "rarity": 5,
+  "category": "neutral",
+  "message": "enigmaticdice.event.confetti",
+  "item": "supplementaries:confetti_popper",
+  "count": 8
+}

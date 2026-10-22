@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mowziesmobs"
+    }
+  ],
+  "type": "summon",
+  "rarity": 6,
+  "category": "neutral",
+  "message": "enigmaticdice.event.lanterns",
+  "spawns": [
+    {
+      "entity": "mowziesmobs:lantern",
+      "count": 2,
+      "placement": {
+        "type": "front",
+        "distance": 3,
+        "height": 2,
+        "require_space": true
+      },
+      "interval": 10
+    }
+  ]
+}

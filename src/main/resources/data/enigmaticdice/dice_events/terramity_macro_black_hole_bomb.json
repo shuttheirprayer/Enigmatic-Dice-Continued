@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "terramity"
+    }
+  ],
+  "type": "summon",
+  "rarity": 100,
+  "category": "negative",
+  "claim_radius": 96,
+  "title": {
+    "text": "RUN",
+    "color": "dark_red"
+  },
+  "spawns": [
+    {
+      "entity": "terramity:macro_black_hole_bomb_entity",
+      "placement": {
+        "type": "front",
+        "distance": 2.5,
+        "height": 2,
+        "require_space": false
+      },
+      "delay": 20,
+      "sound": "minecraft:entity.tnt.primed"
+    }
+  ]
+}

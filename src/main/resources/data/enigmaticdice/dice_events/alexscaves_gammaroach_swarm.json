@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "summon",
+  "rarity": 10,
+  "category": "negative",
+  "message": "enigmaticdice.event.gammaroaches",
+  "spawns": [
+    {
+      "entity": "alexscaves:gammaroach",
+      "count": 3,
+      "placement": {
+        "type": "front",
+        "distance": 4,
+        "height": 0.5,
+        "require_space": true
+      },
+      "interval": 6,
+      "target_roller": true
+    }
+  ]
+}

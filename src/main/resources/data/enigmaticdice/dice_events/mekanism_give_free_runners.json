@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 20,
+  "category": "positive",
+  "message": "enigmaticdice.event.free_runners",
+  "item": "mekanism:free_runners",
+  "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"64000\"}]}}"
+}

@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 15,
+  "category": "positive",
+  "message": "enigmaticdice.event.wand_of_symmetry",
+  "item": "create:wand_of_symmetry"
+}

@@ -1,0 +1,47 @@
+{
+  "type": "permanent_effects",
+  "rarity": 2,
+  "category": "positive",
+  "effects": [
+    {
+      "effect": "minecraft:strength",
+      "max_level": 2,
+      "message": "enigmaticdice.effect.damage_boost"
+    },
+    {
+      "effect": "minecraft:speed",
+      "max_level": 2,
+      "message": "enigmaticdice.effect.movement_speed"
+    },
+    {
+      "effect": "minecraft:haste",
+      "max_level": 2,
+      "message": "enigmaticdice.effect.dig_speed"
+    },
+    {
+      "effect": "minecraft:health_boost",
+      "max_level": 2,
+      "message": "enigmaticdice.effect.health_boost"
+    },
+    {
+      "effect": "minecraft:night_vision",
+      "max_level": 1,
+      "message": "enigmaticdice.effect.night_vision"
+    },
+    {
+      "effect": "minecraft:invisibility",
+      "max_level": 1,
+      "message": "enigmaticdice.effect.invisibility"
+    },
+    {
+      "effect": "minecraft:fire_resistance",
+      "max_level": 1,
+      "message": "enigmaticdice.effect.fire_resistance"
+    },
+    {
+      "effect": "minecraft:regeneration",
+      "max_level": 2,
+      "message": "enigmaticdice.effect.regeneration"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexsmobs"
+    }
+  ],
+  "type": "apply_effect",
+  "rarity": 6,
+  "category": "neutral",
+  "message": "enigmaticdice.event.clinging",
+  "effect": "alexsmobs:clinging",
+  "duration": 3600
+}

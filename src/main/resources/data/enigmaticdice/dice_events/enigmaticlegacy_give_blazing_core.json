@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 20,
+  "category": "positive",
+  "message": "enigmaticdice.gift.dark_purple",
+  "item": "enigmaticlegacy:blazing_core"
+}

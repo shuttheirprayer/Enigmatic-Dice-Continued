@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "l2hostility"
+    }
+  ],
+  "type": "command",
+  "rarity": 10,
+  "category": "negative",
+  "message": "enigmaticdice.event.difficulty_spike",
+  "commands": [
+    "hostility player @s difficulty base add 10"
+  ]
+}

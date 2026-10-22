@@ -1,0 +1,15 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "crittersandcompanions"}],
+  "type": "summon",
+  "rarity": 5,
+  "category": "positive",
+  "message": "enigmaticdice.event.ferret",
+  "spawns": [
+    {
+      "entity": "crittersandcompanions:ferret",
+      "placement": {"type": "front", "distance": 2, "height": 1, "require_space": true},
+      "tame": true,
+      "persistent": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "waystones"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 5,
+  "category": "positive",
+  "message": "enigmaticdice.event.return_scrolls",
+  "item": "waystones:return_scroll",
+  "count": 3
+}

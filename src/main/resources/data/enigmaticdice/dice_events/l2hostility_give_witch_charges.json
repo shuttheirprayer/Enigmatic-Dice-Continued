@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "l2hostility"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 10,
+  "category": "positive",
+  "message": "enigmaticdice.event.witch_charges",
+  "item": "l2hostility:witch_charge",
+  "count": 4
+}

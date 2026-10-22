@@ -1,0 +1,9 @@
+{
+  "type": "apply_effect",
+  "rarity": 20,
+  "category": "negative",
+  "message": "enigmaticdice.event.day_of_invisibility",
+  "effect": "enigmaticdice:day_of_invisibility",
+  "duration": 24000,
+  "curable": false
+}

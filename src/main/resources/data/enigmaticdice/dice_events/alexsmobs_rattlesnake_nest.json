@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexsmobs"
+    }
+  ],
+  "type": "summon",
+  "rarity": 8,
+  "category": "negative",
+  "message": "enigmaticdice.event.rattlesnakes",
+  "spawns": [
+    {
+      "entity": "alexsmobs:rattlesnake",
+      "count": 4,
+      "placement": {
+        "type": "front",
+        "distance": 4,
+        "height": 0.5,
+        "require_space": true
+      },
+      "interval": 5,
+      "target_roller": true
+    }
+  ]
+}

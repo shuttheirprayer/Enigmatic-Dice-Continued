@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexsmobs"
+    }
+  ],
+  "type": "apply_effect",
+  "rarity": 12,
+  "category": "negative",
+  "message": "enigmaticdice.event.ender_flu",
+  "effect": "alexsmobs:ender_flu",
+  "duration": 2400
+}

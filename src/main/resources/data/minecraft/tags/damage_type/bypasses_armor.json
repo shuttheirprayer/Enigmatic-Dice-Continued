@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "enigmaticdice:unequal_exchange",
+    "enigmaticdice:unequal_exchange_self",
+    "enigmaticdice:execute"
+  ]
+}

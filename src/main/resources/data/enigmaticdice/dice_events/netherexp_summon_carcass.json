@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "netherexp"
+    }
+  ],
+  "type": "summon",
+  "rarity": 5,
+  "category": "positive",
+  "message": "enigmaticdice.event.carcass",
+  "spawns": [
+    {
+      "entity": "netherexp:carcass",
+      "count": 5,
+      "placement": {
+        "type": "ring",
+        "distance": 3,
+        "height": 5
+      },
+      "interval": 10
+    }
+  ]
+}

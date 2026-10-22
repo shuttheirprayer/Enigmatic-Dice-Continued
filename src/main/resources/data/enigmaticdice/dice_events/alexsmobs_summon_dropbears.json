@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexsmobs"
+    }
+  ],
+  "type": "summon",
+  "rarity": 10,
+  "category": "negative",
+  "message": "enigmaticdice.event.dropbears",
+  "spawns": [
+    {
+      "entity": "alexsmobs:dropbear",
+      "count": 2,
+      "placement": {
+        "type": "front",
+        "distance": 6,
+        "height": 1,
+        "require_space": true
+      },
+      "interval": 10,
+      "target_roller": true
+    }
+  ]
+}

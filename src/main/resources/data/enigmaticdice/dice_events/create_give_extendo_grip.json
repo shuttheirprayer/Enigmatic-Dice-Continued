@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 10,
+  "category": "positive",
+  "message": "enigmaticdice.event.extendo_grip",
+  "item": "create:extendo_grip"
+}

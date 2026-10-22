@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+  "type": "summon",
+  "rarity": 10,
+  "category": "negative",
+  "message": "enigmaticdice.event.rotspawn",
+  "spawns": [
+    {
+      "entity": "undergarden:rotling",
+      "count": 3,
+      "placement": {
+        "type": "front",
+        "distance": 5,
+        "height": 1,
+        "require_space": true
+      },
+      "interval": 5,
+      "target_roller": true
+    },
+    {
+      "entity": "undergarden:rotwalker",
+      "placement": {
+        "type": "front",
+        "distance": 7,
+        "height": 1,
+        "require_space": true
+      },
+      "delay": 20,
+      "target_roller": true
+    }
+  ]
+}

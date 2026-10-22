@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "apply_effect",
+  "rarity": 8,
+  "category": "positive",
+  "message": "enigmaticdice.event.sugar_rush",
+  "effect": "alexscaves:sugar_rush",
+  "duration": 3600
+}

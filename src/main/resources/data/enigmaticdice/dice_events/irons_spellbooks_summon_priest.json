@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "summon",
+  "rarity": 10,
+  "category": "positive",
+  "message": "enigmaticdice.event.priest",
+  "spawns": [
+    {
+      "entity": "irons_spellbooks:priest",
+      "placement": {
+        "type": "front",
+        "distance": 3,
+        "height": 1,
+        "require_space": true
+      }
+    }
+  ]
+}

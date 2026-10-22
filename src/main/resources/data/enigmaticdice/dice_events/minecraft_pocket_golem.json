@@ -1,0 +1,23 @@
+{
+  "type": "summon",
+  "rarity": 10,
+  "category": "positive",
+  "message": "enigmaticdice.event.pocket_golem",
+  "spawns": [
+    {
+      "entity": "minecraft:iron_golem",
+      "placement": {
+        "type": "front",
+        "distance": 2,
+        "height": 1,
+        "require_space": true
+      },
+      "nbt": "{PlayerCreated:1b}",
+      "persistent": true,
+      "full_health": true,
+      "attributes": {
+        "enigmaticdice:size_scale": 0.4
+      }
+    }
+  ]
+}

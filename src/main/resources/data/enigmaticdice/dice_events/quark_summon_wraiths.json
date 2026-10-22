@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+  "type": "summon",
+  "rarity": 10,
+  "category": "negative",
+  "message": "enigmaticdice.event.wraiths",
+  "spawns": [
+    {
+      "entity": "quark:wraith",
+      "count": 3,
+      "placement": {
+        "type": "front",
+        "distance": 6,
+        "height": 1,
+        "require_space": true
+      },
+      "interval": 10,
+      "target_roller": true,
+      "nbt": "{IdleSound:\"minecraft:entity.phantom.ambient\",HurtSound:\"minecraft:entity.phantom.hurt\",DeathSound:\"minecraft:entity.phantom.death\"}"
+    }
+  ]
+}

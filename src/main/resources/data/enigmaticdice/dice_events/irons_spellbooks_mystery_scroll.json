@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "command",
+  "rarity": 8,
+  "category": "positive",
+  "message": "enigmaticdice.event.mystery_scroll",
+  "variants": [
+    "createScroll irons_spellbooks:fireball 2",
+    "createScroll irons_spellbooks:lightning_lance 4",
+    "createScroll irons_spellbooks:blood_slash 3",
+    "createScroll irons_spellbooks:ice_block 3",
+    "createScroll irons_spellbooks:chain_lightning 4",
+    "createScroll irons_spellbooks:teleport 3",
+    "createScroll irons_spellbooks:frost_step 4",
+    "createScroll irons_spellbooks:ray_of_frost 3",
+    "createScroll irons_spellbooks:magic_missile 5",
+    "createScroll irons_spellbooks:firebolt 5",
+    "createScroll irons_spellbooks:summon_polar_bear 4",
+    "createScroll irons_spellbooks:heal 4",
+    "createScroll irons_spellbooks:angel_wing 2"
+  ]
+}

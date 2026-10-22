@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "artifacts"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 5,
+  "category": "neutral",
+  "message": "enigmaticdice.event.whoopee_cushion",
+  "item": "artifacts:whoopee_cushion"
+}

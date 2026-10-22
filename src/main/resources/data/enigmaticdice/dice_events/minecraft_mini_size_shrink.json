@@ -1,0 +1,10 @@
+{
+  "type": "apply_effect",
+  "rarity": 20,
+  "category": "neutral",
+  "message": "enigmaticdice.event.mini_size_shrink",
+  "effect": "enigmaticdice:shrunk",
+  "duration": 12000,
+  "amplifier": 0,
+  "curable": false
+}

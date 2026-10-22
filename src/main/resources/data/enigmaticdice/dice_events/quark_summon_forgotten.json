@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+  "type": "summon",
+  "rarity": 15,
+  "category": "negative",
+  "message": "enigmaticdice.event.forgotten",
+  "spawns": [
+    {
+      "entity": "quark:forgotten",
+      "placement": {
+        "type": "front",
+        "distance": 7,
+        "height": 1,
+        "require_space": true
+      },
+      "target_roller": true,
+      "nbt": "{HandItems:[{id:\"minecraft:bow\",Count:1b},{}],ArmorItems:[{},{},{},{id:\"quark:forgotten_hat\",Count:1b}],HandDropChances:[0.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f]}"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "sophisticatedbackpacks"}],
+  "type": "give_item",
+  "rarity": 8,
+  "category": "positive",
+  "message": "enigmaticdice.event.backpack",
+  "item": "sophisticatedbackpacks:backpack"
+}

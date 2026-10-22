@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    }
+  ],
+  "type": "enchant_armor",
+  "rarity": 100,
+  "category": "negative",
+  "message": "enigmaticdice.event.eternal_binding",
+  "enchantment": "enigmaticlegacy:eternal_binding"
+}

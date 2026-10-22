@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "artifacts"
+    }
+  ],
+  "type": "summon",
+  "rarity": 20,
+  "category": "positive",
+  "message": "enigmaticdice.event.mimic",
+  "spawns": [
+    {
+      "entity": "artifacts:mimic",
+      "placement": {
+        "type": "front",
+        "distance": 3,
+        "height": 1,
+        "require_space": true
+      },
+      "names": [
+        "Minic"
+      ],
+      "attributes": {
+        "minecraft:generic.attack_damage": 0.0,
+        "enigmaticdice:size_scale": 0.5
+      }
+    }
+  ]
+}

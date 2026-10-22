@@ -1,0 +1,7 @@
+{
+  "type": "give_item",
+  "rarity": 1000,
+  "category": "positive",
+  "message": "enigmaticdice.gift.aqua",
+  "item": "enigmaticdice:unequal_exchange"
+}

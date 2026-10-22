@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "plushie_buddies"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 5,
+  "category": "neutral",
+  "message": "enigmaticdice.event.warden_plushie",
+  "item": "plushie_buddies:plushie_warden"
+}

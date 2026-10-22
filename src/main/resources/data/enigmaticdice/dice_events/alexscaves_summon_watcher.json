@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "summon",
+  "rarity": 15,
+  "category": "negative",
+  "message": "enigmaticdice.event.watcher",
+  "spawns": [
+    {
+      "entity": "alexscaves:watcher",
+      "placement": {
+        "type": "front",
+        "distance": 8,
+        "height": 1,
+        "require_space": true
+      },
+      "target_roller": true
+    }
+  ]
+}

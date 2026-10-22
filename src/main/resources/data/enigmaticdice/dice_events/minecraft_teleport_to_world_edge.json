@@ -1,0 +1,6 @@
+{
+  "type": "teleport_to_world_edge",
+  "rarity": 100,
+  "category": "neutral",
+  "message": "enigmaticdice.event.teleport_to_world_edge"
+}

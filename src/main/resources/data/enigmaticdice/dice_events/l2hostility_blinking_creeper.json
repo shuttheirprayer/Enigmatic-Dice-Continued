@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "l2hostility"
+    }
+  ],
+  "type": "summon",
+  "rarity": 12,
+  "category": "negative",
+  "message": "enigmaticdice.event.blinking_creeper",
+  "spawns": [
+    {
+      "entity": "minecraft:creeper",
+      "placement": {
+        "type": "front",
+        "distance": 8,
+        "height": 1,
+        "require_space": true
+      },
+      "target_roller": true
+    }
+  ],
+  "on_spawn": [
+    "hostility mobs @s trait set l2hostility:teleport 1",
+    "hostility mobs @s trait set l2hostility:speedy 2"
+  ]
+}

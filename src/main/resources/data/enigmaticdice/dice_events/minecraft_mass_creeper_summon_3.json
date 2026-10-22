@@ -1,0 +1,31 @@
+{
+  "type": "summon",
+  "rarity": 100,
+  "category": "negative",
+  "message": "enigmaticdice.event.creeper_party.level.3",
+  "spawns": [
+    {
+      "entity": "minecraft:creeper",
+      "count": 50,
+      "placement": {
+        "type": "scatter",
+        "min_radius": 4.5,
+        "max_radius": 30.0
+      },
+      "persistent": true,
+      "nbt_variants": [
+        "{}",
+        "{powered:1b}"
+      ],
+      "attributes": {
+        "minecraft:generic.movement_speed": 0.0
+      },
+      "effects": [
+        {
+          "effect": "minecraft:invisibility",
+          "duration": -1
+        }
+      ]
+    }
+  ]
+}

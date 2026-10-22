@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 30,
+  "category": "positive",
+  "message": "enigmaticdice.event.jetpack",
+  "item": "mekanism:jetpack",
+  "nbt": "{mekData:{GasTanks:[{Tank:0b,stored:{gasName:\"mekanism:hydrogen\",amount:12000L}}]}}"
+}

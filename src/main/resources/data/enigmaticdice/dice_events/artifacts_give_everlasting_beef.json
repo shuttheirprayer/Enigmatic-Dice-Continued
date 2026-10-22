@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "artifacts"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 15,
+  "category": "positive",
+  "message": "enigmaticdice.event.everlasting_beef",
+  "item": "artifacts:everlasting_beef"
+}

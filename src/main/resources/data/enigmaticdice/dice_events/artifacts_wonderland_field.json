@@ -1,0 +1,44 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "artifacts"
+    }
+  ],
+  "type": "summon",
+  "rarity": 20,
+  "category": "positive",
+  "message": "enigmaticdice.event.wonderland_field",
+  "message_variants": 3,
+  "spawns": [
+    {
+      "entity": "artifacts:mimic",
+      "count": 10,
+      "placement": {
+        "type": "scatter",
+        "min_radius": 4.5,
+        "max_radius": 30.0
+      },
+      "nbt": "{NoAI:1b,DeathLootTable:\"enigmaticdice:entities/mimic_loot_table\"}",
+      "attributes": {
+        "minecraft:generic.attack_damage": 0.0
+      }
+    },
+    {
+      "entity": "artifacts:mimic",
+      "placement": {
+        "type": "scatter",
+        "min_radius": 4.5,
+        "max_radius": 30.0
+      },
+      "nbt": "{NoAI:1b}",
+      "effects": [
+        {
+          "effect": "minecraft:invisibility",
+          "duration": -1,
+          "visible": true
+        }
+      ]
+    }
+  ]
+}

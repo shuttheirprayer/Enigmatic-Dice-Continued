@@ -1,0 +1,51 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexsmobs"
+    }
+  ],
+  "type": "summon",
+  "rarity": 5,
+  "category": "positive",
+  "message": "enigmaticdice.event.warped_toads",
+  "spawns": [
+    {
+      "entity": "alexsmobs:warped_toad",
+      "count": 3,
+      "placement": {
+        "type": "ring",
+        "distance": 2,
+        "height": 5
+      },
+      "interval": 10,
+      "tame": true,
+      "nbt": "{Command:1}",
+      "names": [
+        "Jabba the Hopp",
+        "Kermit's Cousin",
+        "Trevor",
+        "Pepe",
+        "Sir Ribbit",
+        "Croakmaster",
+        "Frogzilla",
+        "The Toadfather",
+        "Frogger",
+        "Toadally Buggin",
+        "Hopkins",
+        "Ribbert",
+        "Slippy",
+        "Rana",
+        "Greninja",
+        "Jiraiya",
+        "Quackson"
+      ],
+      "effects": [
+        {
+          "effect": "minecraft:regeneration",
+          "duration": -1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "primitive_mobs"
+    }
+  ],
+  "type": "summon",
+  "rarity": 10,
+  "category": "positive",
+  "message": "enigmaticdice.event.lost_miner",
+  "spawns": [
+    {
+      "entity": "primitive_mobs:lost_miner",
+      "placement": {
+        "type": "front",
+        "distance": 3,
+        "height": 1,
+        "require_space": true
+      }
+    }
+  ]
+}

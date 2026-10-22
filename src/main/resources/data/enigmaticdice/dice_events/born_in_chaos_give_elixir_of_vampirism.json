@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "born_in_chaos_v1"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 5,
+  "category": "positive",
+  "message": "enigmaticdice.gift.blue",
+  "item": "born_in_chaos_v1:elixir_of_vampirism",
+  "count": 8
+}

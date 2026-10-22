@@ -1,0 +1,8 @@
+{
+  "type": "accelerate_time",
+  "rarity": 20,
+  "category": "neutral",
+  "message": "enigmaticdice.event.accelerate_day_cycle",
+  "multiplier": 40,
+  "duration": 6000
+}

@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "born_in_chaos_v1"
+    }
+  ],
+  "type": "summon",
+  "rarity": 8,
+  "category": "negative",
+  "message": "enigmaticdice.event.gadflies",
+  "spawns": [
+    {
+      "entity": "born_in_chaos_v1:bloody_gadfly",
+      "count": 3,
+      "placement": {
+        "type": "front",
+        "distance": 5,
+        "height": 2,
+        "require_space": true
+      },
+      "interval": 6,
+      "target_roller": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ],
+  "type": "command",
+  "rarity": 10,
+  "category": "positive",
+  "message": "enigmaticdice.event.wrapped_spell",
+  "variants": [
+    "give @s supplementaries:present_red{BlockEntityTag:{Items:[{Slot:0b,id:\"irons_spellbooks:scroll\",Count:1b,tag:{ISB_Spells:{data:[{id:\"irons_spellbooks:fireball\",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_yellow{BlockEntityTag:{Items:[{Slot:0b,id:\"irons_spellbooks:scroll\",Count:1b,tag:{ISB_Spells:{data:[{id:\"irons_spellbooks:lightning_lance\",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_black{BlockEntityTag:{Items:[{Slot:0b,id:\"irons_spellbooks:scroll\",Count:1b,tag:{ISB_Spells:{data:[{id:\"irons_spellbooks:blood_slash\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_cyan{BlockEntityTag:{Items:[{Slot:0b,id:\"irons_spellbooks:scroll\",Count:1b,tag:{ISB_Spells:{data:[{id:\"irons_spellbooks:ice_block\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_blue{BlockEntityTag:{Items:[{Slot:0b,id:\"irons_spellbooks:scroll\",Count:1b,tag:{ISB_Spells:{data:[{id:\"irons_spellbooks:chain_lightning\",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_purple{BlockEntityTag:{Items:[{Slot:0b,id:\"irons_spellbooks:scroll\",Count:1b,tag:{ISB_Spells:{data:[{id:\"irons_spellbooks:teleport\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_white{BlockEntityTag:{Items:[{Slot:0b,id:\"irons_spellbooks:scroll\",Count:1b,tag:{ISB_Spells:{data:[{id:\"irons_spellbooks:frost_step\",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_pink{BlockEntityTag:{Items:[{Slot:0b,id:\"irons_spellbooks:scroll\",Count:1b,tag:{ISB_Spells:{data:[{id:\"irons_spellbooks:magic_missile\",index:0,level:5,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_green{BlockEntityTag:{Items:[{Slot:0b,id:\"irons_spellbooks:scroll\",Count:1b,tag:{ISB_Spells:{data:[{id:\"irons_spellbooks:summon_polar_bear\",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}}],Sender:\"Enigmatic Die\"}}",
+    "give @s supplementaries:present_orange{BlockEntityTag:{Items:[{Slot:0b,id:\"irons_spellbooks:scroll\",Count:1b,tag:{ISB_Spells:{data:[{id:\"irons_spellbooks:heal\",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}}],Sender:\"Enigmatic Die\"}}"
+  ]
+}

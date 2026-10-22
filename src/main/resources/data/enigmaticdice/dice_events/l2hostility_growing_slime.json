@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "l2hostility"
+    }
+  ],
+  "type": "summon",
+  "rarity": 10,
+  "category": "negative",
+  "message": "enigmaticdice.event.growing_slime",
+  "spawns": [
+    {
+      "entity": "minecraft:slime",
+      "placement": {
+        "type": "front",
+        "distance": 5,
+        "height": 1,
+        "require_space": true
+      },
+      "target_roller": true,
+      "nbt": "{Size:1}"
+    }
+  ],
+  "on_spawn": [
+    "hostility mobs @s trait set l2hostility:growth 2"
+  ]
+}

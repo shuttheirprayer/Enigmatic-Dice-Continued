@@ -1,0 +1,26 @@
+{
+  "type": "teleport_to_structure",
+  "rarity": 20,
+  "category": "neutral",
+  "message": "enigmaticdice.event.teleport_to_structure",
+  "message_variants": 4,
+  "structures": [
+    "minecraft:mansion",
+    "idas:ancient_mines",
+    "idas:apothecary_abode",
+    "idas:bazaar",
+    "idas:collectors_museum",
+    "idas:haunted_manor",
+    "idas:labyrinth",
+    "idas:pillager_fortress",
+    "idas:ruins_of_the_deep",
+    "idas:tinkers_citadel",
+    "idas:tinkers_workshop",
+    "idas:tree_of_wisdom",
+    "skyarena:sky_arena",
+    "skyarena:ice_arena",
+    "call_of_yucutan:deadly_crypt",
+    "call_of_yucutan:overgrown_temple",
+    "born_in_chaos_v1:infernal_pumpkin"
+  ]
+}

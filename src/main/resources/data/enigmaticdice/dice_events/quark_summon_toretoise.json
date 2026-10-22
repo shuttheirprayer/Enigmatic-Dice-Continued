@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+  "type": "summon",
+  "rarity": 8,
+  "category": "positive",
+  "message": "enigmaticdice.event.toretoise",
+  "spawns": [
+    {
+      "entity": "quark:toretoise",
+      "placement": {
+        "type": "front",
+        "distance": 3,
+        "height": 1,
+        "require_space": true
+      },
+      "nbt_variants": [
+        "{oreType:1}",
+        "{oreType:2}",
+        "{oreType:3}",
+        "{oreType:4}",
+        "{oreType:5}"
+      ],
+      "persistent": true
+    }
+  ]
+}

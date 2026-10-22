@@ -1,0 +1,48 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "born_in_chaos_v1"
+    }
+  ],
+  "type": "summon",
+  "rarity": 20,
+  "category": "negative",
+  "message": "enigmaticdice.event.brood_awakens",
+  "spawns": [
+    {
+      "entity": "born_in_chaos_v1:swarmer",
+      "count": 2,
+      "placement": {
+        "type": "front",
+        "distance": 5,
+        "height": 2,
+        "require_space": true
+      },
+      "attributes": {
+        "minecraft:generic.max_health": 100.0
+      },
+      "effects": [
+        {
+          "effect": "minecraft:wither",
+          "amplifier": 4,
+          "duration": -1
+        },
+        {
+          "effect": "born_in_chaos_v1:obsession",
+          "duration": -1
+        }
+      ]
+    },
+    {
+      "entity": "born_in_chaos_v1:mother_spider",
+      "count": 2,
+      "placement": {
+        "type": "front",
+        "distance": 5,
+        "height": 2,
+        "require_space": true
+      }
+    }
+  ]
+}

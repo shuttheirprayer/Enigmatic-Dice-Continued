@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "l2hostility"
+    }
+  ],
+  "type": "give_item",
+  "rarity": 25,
+  "category": "positive",
+  "message": "enigmaticdice.event.bottle_of_sanity",
+  "item": "l2hostility:bottle_of_sanity"
+}

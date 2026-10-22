@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+  "type": "summon",
+  "rarity": 5,
+  "category": "neutral",
+  "message": "enigmaticdice.event.stoneling",
+  "spawns": [
+    {
+      "entity": "quark:stoneling",
+      "placement": {
+        "type": "front",
+        "distance": 2,
+        "height": 1,
+        "require_space": true
+      }
+    }
+  ]
+}

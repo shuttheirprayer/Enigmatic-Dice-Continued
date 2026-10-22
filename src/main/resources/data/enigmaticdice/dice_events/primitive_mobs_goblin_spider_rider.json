@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "primitive_mobs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "opposing_force"
+    }
+  ],
+  "type": "summon",
+  "rarity": 12,
+  "category": "negative",
+  "message": "enigmaticdice.event.goblin_rider",
+  "spawns": [
+    {
+      "entity": "opposing_force:umber_spider",
+      "placement": {
+        "type": "front",
+        "distance": 7,
+        "height": 1,
+        "require_space": true
+      },
+      "target_roller": true,
+      "nbt": "{Passengers:[{id:\"primitive_mobs:goblin\"}]}"
+    }
+  ]
+}

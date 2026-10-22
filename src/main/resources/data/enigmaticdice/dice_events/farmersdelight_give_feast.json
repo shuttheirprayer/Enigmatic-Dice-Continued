@@ -1,0 +1,8 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "farmersdelight"}],
+  "type": "give_item",
+  "rarity": 5,
+  "category": "positive",
+  "message": "enigmaticdice.event.feast",
+  "item": "farmersdelight:honey_glazed_ham_block"
+}

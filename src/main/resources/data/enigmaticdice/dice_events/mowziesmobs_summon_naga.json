@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mowziesmobs"
+    }
+  ],
+  "type": "summon",
+  "rarity": 15,
+  "category": "negative",
+  "message": "enigmaticdice.event.naga",
+  "spawns": [
+    {
+      "entity": "mowziesmobs:naga",
+      "placement": {
+        "type": "front",
+        "distance": 8,
+        "height": 4,
+        "require_space": true
+      },
+      "target_roller": true
+    }
+  ]
+}

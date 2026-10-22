@@ -1,0 +1,7 @@
+{
+  "type": "enchant_armor",
+  "rarity": 20,
+  "category": "negative",
+  "message": "enigmaticdice.event.binding_curse",
+  "enchantment": "minecraft:binding_curse"
+}

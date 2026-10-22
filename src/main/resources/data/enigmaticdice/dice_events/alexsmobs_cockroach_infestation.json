@@ -1,0 +1,15 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "alexsmobs"}],
+  "type": "summon",
+  "rarity": 5,
+  "category": "neutral",
+  "message": "enigmaticdice.event.cockroaches",
+  "spawns": [
+    {
+      "entity": "alexsmobs:cockroach",
+      "count": 12,
+      "placement": {"type": "front", "distance": 2, "height": 0.5, "require_space": true},
+      "interval": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "conditions": [{"type": "forge:mod_loaded", "modid": "alexsmobs"}],
+  "type": "summon",
+  "rarity": 8,
+  "category": "positive",
+  "message": "enigmaticdice.event.capuchin",
+  "spawns": [
+    {
+      "entity": "alexsmobs:capuchin_monkey",
+      "placement": {"type": "front", "distance": 2, "height": 1, "require_space": true},
+      "tame": true,
+      "persistent": true
+    }
+  ]
+}

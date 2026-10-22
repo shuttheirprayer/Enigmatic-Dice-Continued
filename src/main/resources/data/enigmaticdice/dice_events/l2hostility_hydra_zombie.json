@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "l2hostility"
+    }
+  ],
+  "type": "summon",
+  "rarity": 12,
+  "category": "negative",
+  "message": "enigmaticdice.event.hydra_zombie",
+  "spawns": [
+    {
+      "entity": "minecraft:zombie",
+      "placement": {
+        "type": "front",
+        "distance": 5,
+        "height": 1,
+        "require_space": true
+      },
+      "target_roller": true
+    }
+  ],
+  "on_spawn": [
+    "hostility mobs @s trait set l2hostility:split 2",
+    "hostility mobs @s trait set l2hostility:speedy 1"
+  ]
+}
